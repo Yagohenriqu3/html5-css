@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body{
+    background-color:black;
+}
+
+main{
+    width: 1100px;
+    box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.61);
+    background-color: white;
+    margin: 5px auto 10px auto;
+    padding: 1px 10px 1px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    border-radius: 5px;
+    
+    
+}
+.titulo-secao{
+    background-color:white;
+    color: black;
+    padding: 3px;
+    width: 500px;
+    font-weight: 900;
+    margin: 5px 10px 0px 10px;
+}
+h1{
+    font-size: 2.5em;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2.topo{
+    
+    font-weight: bold;
+    margin: 0px;
+    font-size: larger;
+    margin-left: 10px;
+}
+h2.subtitulo{
+    font-weight: bold;
+    
+    color: black;
+    padding: 3px;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+   
+}
+aside{
+    font-style: italic;
+    text-decoration: underline;
+}
+p{
+    font-size: large;
+}
+
+section.imagem{
+    margin: auto;
+    text-align: center;
+}
+h3.subtitulo{
+    font-weight: bold;
+    background-color:black;
+    color: white;
+    padding: 3px;
+    width: 200px;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    border-radius: 10px;
+   
+}
+
+
