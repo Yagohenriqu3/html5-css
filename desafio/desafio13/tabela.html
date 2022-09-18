@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table{
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+           
+        }
+        caption{
+            border: 1px solid black;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            font-size: 2em;
+            font-weight: bolder;
+            
+        
+        }
+        th,td,tr{
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+        th{
+            background-color: grey;
+            text-align: center;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grupos</h1>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nome</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Mulheres</th>
+                <td>Ana maria santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>joelma</td>
+                <td>naruto</td>
+                <td>madagascar</td>
+                <td>click</td>
+            </tr>
+            <tr>
+                <td>Jessica</td>
+                <td>Taxi Drive</td>
+                <td>Vizinhos</td>
+                <td>It A coisa</td>
+            </tr>
+            <tr>
+                <td>Juliana</td>
+                <td>Gente Grande</td>
+                <td>ate o ultimo homem</td>
+                <td>um espiao e meio</td>
+            </tr>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Homens</th>
+                <td>Yago</td>
+                <td>homen de ferro</td>
+                <td>homem aranha</td>
+                <td>as branquelas</td>
+            </tr>
+            <tr>
+                <td>Andre</td>
+                <td>teletambis</td>
+                <td>galinha pintadinha</td>
+                <td>princesas</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>Luta</td>
+                <td>Tiro</td>
+                <td>Avião</td>
+            </tr>
+            <tr>
+                <td>Paulo</td>
+                <td>Romance</td>
+                <td>Patriota</td>
+                <td>Punisher</td>
+            </tr>
+            <tr>
+                <tfoot>
+                    <th colspan="4" scope="row"> total</th>
+                    <td>5000</td>
+                </tfoot>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
